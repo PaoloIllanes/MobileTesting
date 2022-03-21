@@ -47,6 +47,7 @@ public class CreateTaskWhenDo {
         Thread.sleep(2000);
 
 
+
         Assertions.assertTrue(appiumDriver.findElement(By.xpath("//android.widget.TextView[@text='"+taskName+"']")).isDisplayed(),"Task was not created");
 
     }
